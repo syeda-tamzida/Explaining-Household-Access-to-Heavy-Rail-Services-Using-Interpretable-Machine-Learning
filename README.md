@@ -49,7 +49,7 @@ SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization m
 </table>
 
 
-# Dependency plot
+# Dependency Plot
 
 SHAP dependency plot shows how a single feature influences the model’s prediction across all observations. Each point represents one sample.
 
