@@ -16,12 +16,28 @@ ML models (RF, SVM, KNN, XGBoost) predict household heavy rail access using NHTS
 | XGBoost       | 0.9613   | 0.94    | 0.9560        | 0.0040   |
 | Random Forest  | 0.9646   | 0.95    | 0.9587        | 0.0065   |
 
-<div style="display: flex; justify-content: center;">
-  <img src="images/MSA_with_Heavy_Rail_Access_bar.png" width="45%"/>
-  <img src="images/MSA_without_Heavy_Rail_Access_bar.png" width="45%"/>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/MSA_with_Heavy_Rail_Access_bar.png" width="90%"><br>
+      <em>SHAP Bar plot for MSA with Heavy Rail Access</em>
+    </td>
+    <td align="center">
+      <img src="images/MSA_without_Heavy_Rail_Access_bar.png" width="90%"><br>
+      <em>SHAP Bar plot for MSA without Heavy Rail Access</em>
+    </td>
+  </tr>
+</table>
 
-<div style="display: flex; justify-content: center;">
-  <img src="images/MSA_with_Heavy_Rail_Access_beeswarm.png" width="45%"/>
-  <img src="images/MSA_without_Heavy_Rail_Access_beeswarm.png" width="45%"/>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/MSA_with_Heavy_Rail_Access_beeswarm.png" width="90%"><br>
+      <em>SHAP Beeswarm plot for MSA with Heavy Rail Access</em>
+    </td>
+    <td align="center">
+      <img src="images/MSA_without_Heavy_Rail_Access_beeswarm.png" width="90%"><br>
+      <em>SHAP Beeswarm plot for MSA without Heavy Rail Access</em>
+    </td>
+  </tr>
+</table>
