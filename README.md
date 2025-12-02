@@ -9,12 +9,17 @@ ML models (RF, SVM, KNN, XGBoost) predict household heavy rail access using NHTS
 </p>
 
 # Result
+Four ML models were evaluated for predicting travel mode choice. Ensemble models clearly outperformed simpler classifiers. Random Forest achieved the highest accuracy at 96.46 percent, closely followed by XGBoost at 96.13 percent, both showing stable cross validation performance. KNN performed moderately, and SVM showed the weakest generalization.
+
 | Model         | Accuracy | Macro F1 | Mean CV Score | CV Std Dev |
 |---------------|----------|---------|---------------|----------|
 | KNN           | 0.8199   | 0.58    | 0.7906        | 0.0050   |
 | SVM           | 0.6439   | 0.59    | 0.6331        | 0.0424   |
 | XGBoost       | 0.9613   | 0.94    | 0.9560        | 0.0040   |
 | Random Forest  | 0.9646   | 0.95    | 0.9587        | 0.0065   |
+
+
+SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization metrics as the strongest predictors. Socioeconomic variables like household income and age also contributed meaningfully, while WORKER and passenger or driver flags had minimal impact. Overall, ensemble models delivered superior accuracy and interpretability, with urban structure emerging as the dominant factor shaping travel mode choice.
 
 <table>
   <tr>
