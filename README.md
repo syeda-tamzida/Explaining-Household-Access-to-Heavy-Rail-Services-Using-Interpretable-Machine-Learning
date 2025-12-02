@@ -18,6 +18,7 @@ Four ML models were evaluated for predicting travel mode choice. Ensemble models
 | XGBoost       | 0.9613   | 0.94    | 0.9560        | 0.0040   |
 | Random Forest  | 0.9646   | 0.95    | 0.9587        | 0.0065   |
 
+**Feature Importance Analysis via SHAP**
 
 SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization metrics as the strongest predictors. Socioeconomic variables like household income and age also contributed meaningfully, while WORKER and passenger or driver flags had minimal impact. Overall, ensemble models delivered superior accuracy and interpretability, with urban structure emerging as the dominant factor shaping travel mode choice.
 
