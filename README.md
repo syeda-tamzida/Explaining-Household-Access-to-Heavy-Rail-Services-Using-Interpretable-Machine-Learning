@@ -49,6 +49,10 @@ SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization m
 </table>
 
 **Dependency plot**
+SHAP dependency plot shows how a single feature influences the model’s prediction across all observations. Each point represents one sample.
+
+**MSA with Heavy Rail Access**
+
 <table>
   <tr>
     <td align="center">
@@ -57,6 +61,8 @@ SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization m
     </td>
   </tr>
 </table>
+
+**MSA without Heavy Rail Access**
 
 <table>
   <tr>
