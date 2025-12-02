@@ -49,4 +49,20 @@ SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization m
 </table>
 
 **Dependency plot**
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/with_heavy_rail_dependency_plot.png" width="90%"><br>
+      <em>SHAP Beeswarm plot for MSA with Heavy Rail Access</em>
+    </td>
+  </tr>
+</table>
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/without_heavy_rail_dependency_plot.png" width="90%"><br>
+      <em>SHAP Beeswarm plot for MSA without Heavy Rail Access</em>
+    </td>
+  </tr>
+</table>
