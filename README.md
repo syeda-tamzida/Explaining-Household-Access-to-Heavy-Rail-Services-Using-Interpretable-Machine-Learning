@@ -7,3 +7,10 @@ ML models (RF, SVM, KNN, XGBoost) predict household heavy rail access using NHTS
 <p align="center">
 <img src="images/methodology_overview.jpg" align="center" width="75%"/>
 </p>
+
+# Result
+
+<div style="display: flex; justify-content: center;">
+  <img src="images/MSA_with_Heavy_Rail_Access_bar.png" width="45%"/>
+  <img src="images/MSA_without_Heavy_Rail_Access_bar.png" width="45%"/>
+</div>
