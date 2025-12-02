@@ -47,4 +47,6 @@ SHAP analysis identified URBANSIZE, CENSUS_D, CENSUS_R, and other urbanization m
     </td>
   </tr>
 </table>
+
 **Dependency plot**
+
