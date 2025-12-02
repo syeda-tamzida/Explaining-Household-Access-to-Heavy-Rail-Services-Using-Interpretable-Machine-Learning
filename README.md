@@ -9,6 +9,12 @@ ML models (RF, SVM, KNN, XGBoost) predict household heavy rail access using NHTS
 </p>
 
 # Result
+| Model         | Accuracy | Macro F1 | Mean CV Score | CV Std Dev |
+|---------------|----------|---------|---------------|----------|
+| KNN           | 0.8199   | 0.58    | 0.7906        | 0.0050   |
+| SVM           | 0.6439   | 0.59    | 0.6331        | 0.0424   |
+| XGBoost       | 0.9613   | 0.94    | 0.9560        | 0.0040   |
+| Random Forest  | 0.9646   | 0.95    | 0.9587        | 0.0065   |
 
 <div style="display: flex; justify-content: center;">
   <img src="images/MSA_with_Heavy_Rail_Access_bar.png" width="45%"/>
